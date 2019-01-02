@@ -36,6 +36,6 @@ public enum BoomEnum: Int {
     case random
     
     static var count: Int {
-        return BoomEnum.random.hashValue + 1
+        return BoomEnum.random.rawValue + 1
     }
 }
