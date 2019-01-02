@@ -73,7 +73,7 @@ public enum PiecePlaceEnum: Int {
     case unknown
     
     public static var count: Int {
-        return PiecePlaceEnum.custom.hashValue + 1
+        return PiecePlaceEnum.custom.rawValue + 1
     }
     
     public func pieceNumber() -> Int {
